@@ -57,13 +57,10 @@ body {
   /* background-color: aqua; */
 }
 
-#centroc {
-  width: 75%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-size: cover;
-  background-image: center;
+#carouselExampleSlidesOnly {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cajaComentario {
