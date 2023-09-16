@@ -1,0 +1,64 @@
+body {
+  width: 100vw;
+
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+#cabecera {
+  background-color: grey;
+  height: 4em;
+  width: 100vw;
+}
+
+#cuerpo {
+  background-color: blueviolet;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#pie {
+  background-color: brown;
+  height: 5em;
+}
+
+#centro {
+  background-color: blueviolet;
+  height: 52.55em;
+  width: 50em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subcentro {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-inner,
+.carousel-inner > .carousel-item,
+.carousel-inner > .carousel-item > img {
+  height: 40em;
+  width: 100vw;
+  background-color: aqua;
+}
+
+#centroc {
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
