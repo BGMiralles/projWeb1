@@ -3,6 +3,7 @@ body {
 
   padding: 0;
   margin: 0;
+  overflow: hidden;
 }
 
 .container-fluid {
@@ -136,4 +137,16 @@ label {
   .carousel-inner > .carousel-item > img {
     height: auto;
   }
+}
+
+.navbar-custom {
+  position: fixed; 
+  width: 100%;
+  top: 0;
+  z-index: 1000; 
+}
+
+
+#carousel {
+  margin-top: 4em; 
 }
