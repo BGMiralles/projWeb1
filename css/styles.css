@@ -17,7 +17,7 @@ body {
 }
 
 #cuerpo {
-  background-color: blueviolet;
+  background: linear-gradient(#212529, #800080);
   height: 89vh;
   display: flex;
   justify-content: center;
@@ -25,7 +25,7 @@ body {
 }
 
 #pie {
-  background-color: brown;
+  background-color: #800080;
   height: 3em;
 
   display: flex;
@@ -34,7 +34,7 @@ body {
 }
 
 #centro {
-  background-color: blueviolet;
+  background: linear-gradient(#212529, #800080);
   height: 52.55em;
   width: 100vw;
   display: flex;
@@ -46,6 +46,8 @@ body {
 .subcentro {
   height: 100%;
   width: 50%;
+  background: linear-gradient(#212529, #800080);
+  color: white;
 
   flex-direction: column;
   display: flex;
