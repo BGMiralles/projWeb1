@@ -45,9 +45,8 @@ body {
 }
 
 .subcentro {
-  height: 100%;
+  height: 50%;
   width: 50%;
-  background: linear-gradient(#212529, #800080);
   color: white;
 
   flex-direction: row;
@@ -94,7 +93,7 @@ label {
 }
 
 .btn:hover {
-  background-color: greenyellow;
+  background-color: black;
 }
 
 #navbar-bar .nav-link {
@@ -164,3 +163,61 @@ label {
 .centroLogo {
     margin-top: 1em;
 }
+
+@media screen and (max-width: 768px) {
+    
+    select#subcentro {
+      max-height: calc(100vh - 200px); 
+      overflow-y: hidden; 
+    }
+  }
+  
+.card {
+    margin: 0.6em;
+}
+
+
+.card-custom {
+    height: 20em;
+    width: 20em; 
+  }
+  
+  
+  .card-custom .card-img-top {
+    height: 10em; 
+  }
+
+  @media screen and (max-width: 768px) {
+    .subcentro {
+      flex-direction: column; 
+      align-items: center; 
+    }
+    .card {
+      max-width: 100%; 
+      margin-bottom: 1rem; 
+    }
+    
+  }
+
+  @media screen and (max-width: 768px) {
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+      gap: 1em; 
+      justify-content: center; 
+    }
+  
+    .card {
+      width: 100%; 
+    }
+  }
+
+.titulos {
+    font-weight: bold;
+    margin-left: 2em;
+    text-align: center; 
+    margin-left: 0; 
+    margin-bottom: 1em;
+    margin-right: 2em;
+}
+
