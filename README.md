@@ -87,5 +87,9 @@
 
 #### <span style="font-family:Aria-lNarrow">Bugs:
 
-#### <span style="font-family:Aria-lNarrow"> -La pagina de la carta no se ajusta a la pantalla de un movil, se montan las imagenes. En esta misma pagina se queda una linea blanco en el pie. Por ultimo, la lista de comunidades autonomas no esta ordena alfabeticamente.
+#### <span style="font-family:Aria-lNarrow"> - Por falta de tiempo hay algunas cosas para corregir, en un futuro las solucionare.
+
+#### <span style="font-family:Aria-lNarrow"> -La pagina de la carta no se ajusta a la pantalla de un movil, se montan las imagenes. En esta misma pagina se queda una linea blanco en el pie. Por ultimo, la lista de comunidades autonomas no esta ordena alfabeticamente y hay unos elementos en el form por eliminar.
+
+
  
