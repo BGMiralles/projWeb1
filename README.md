@@ -74,6 +74,9 @@
 <br>
 
 #### https://github.com/BGMiralles/projWeb1
+#### <span style="font-family:Aria-lNarrow">Linkedin:
+### https://www.linkedin.com/in/borjagutierrezmiralles/
+
 
 <br><br><br><br>
 
