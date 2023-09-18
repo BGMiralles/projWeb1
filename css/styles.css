@@ -1,5 +1,6 @@
-body {
+body, html {
   width: 100vw;
+  height: 100vh;
 
   padding: 0;
   margin: 0;
@@ -8,6 +9,9 @@ body {
 .container-fluid {
   padding: 0;
   margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 #cabecera {
@@ -161,63 +165,134 @@ label {
 }
 
 .centroLogo {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 
 @media screen and (max-width: 768px) {
-    
-    select#subcentro {
-      max-height: calc(100vh - 200px); 
-      overflow-y: hidden; 
-    }
+  select#subcentro {
+    max-height: calc(100vh - 200px);
+    overflow-y: hidden;
   }
-  
-.card {
-    margin: 0.6em;
 }
 
+.card {
+  margin: 0.6em;
+}
 
 .card-custom {
-    height: 20em;
-    width: 20em; 
-  }
-  
-  
-  .card-custom .card-img-top {
-    height: 10em; 
-  }
-
-  @media screen and (max-width: 768px) {
-    .subcentro {
-      flex-direction: column; 
-      align-items: center; 
-    }
-    .card {
-      max-width: 100%; 
-      margin-bottom: 1rem; 
-    }
-    
-  }
-
-  @media screen and (max-width: 768px) {
-    .card-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
-      gap: 1em; 
-      justify-content: center; 
-    }
-  
-    .card {
-      width: 100%; 
-    }
-  }
-
-.titulos {
-    font-weight: bold;
-    margin-left: 2em;
-    text-align: center; 
-    margin-left: 0; 
-    margin-bottom: 1em;
-    margin-right: 2em;
+  height: 20em;
+  width: 20em;
 }
 
+.card-custom .card-img-top {
+  height: 10em;
+}
+
+@media screen and (max-width: 768px) {
+  .subcentro {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    gap: 1em;
+    justify-content: center;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+.titulos {
+  font-weight: bold;
+  margin-left: 2em;
+  text-align: center;
+  margin-left: 0;
+  margin-bottom: 1em;
+  margin-right: 2em;
+}
+
+@media screen and (max-width: 768px) {
+  .subcentro {
+    flex-direction: column; 
+    align-items: center; 
+    height: 100vh; 
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: space-between; 
+    height: auto; 
+  }
+
+  .card {
+    width: 80%; 
+    margin: 1em 0; 
+  }
+
+  .card .card-img-top {
+    max-width: 100%; 
+    height: auto; 
+  }
+
+  .card-body {
+    text-align: center; 
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .subcentro.card-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+  }
+
+  .subcentro.card-container .card {
+    width: 80%; 
+    margin: 1em 0; 
+  }
+
+  .subcentro.card-container .card .card-img-top {
+    max-width: 100%; 
+    height: auto; 
+  }
+
+  .subcentro.card-container .card-body {
+    text-align: center; 
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .subcentro.card-container {
+    flex-direction: column;
+    align-items: center;
+    height: auto; 
+  }
+
+  .subcentro.card-container .card {
+    width: 90%; 
+    margin: 1em 0; 
+  }
+
+  .subcentro.card-container .card .card-img-top {
+    max-width: 100%; 
+    height: auto; 
+  }
+
+  .subcentro.card-container .card-body {
+    text-align: center;
+  }
+}
