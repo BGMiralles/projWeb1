@@ -6,6 +6,7 @@ body, html {
   margin: 0;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 #total {
@@ -305,4 +306,8 @@ label {
   .subcentro.card-container .card-body {
     text-align: center;
   }
+}
+
+.no-resize {
+    resize: none;
 }
