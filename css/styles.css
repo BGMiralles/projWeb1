@@ -311,3 +311,9 @@ label {
 .no-resize {
     resize: none;
 }
+
+.card {
+    flex: 1; 
+    margin: 0.6em;
+    max-width: 18rem; 
+  }
